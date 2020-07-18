@@ -1,0 +1,10 @@
+	#/usr/bin/bash
+if [ -z $1 ]; then
+	echo "please add a comment"
+	exit 0
+fi
+
+git add -A
+git commit -/.bashrc "$1"
+git push -u origin master
+
