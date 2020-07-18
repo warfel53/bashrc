@@ -1,0 +1,2 @@
+# bashrc
+bash ~/github.sh
